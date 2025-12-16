@@ -1,0 +1,36 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "javac: build project",
+      "type": "shell",
+      "command": "javac",
+      "args": [
+        "-cp",
+        ".;lib/*",
+        "Main.java",
+        "SinhVien\\sinhvien.java",
+        "db\\DBConnection.java",
+        "db\\StudentDAO.java",
+        "gui\\MainForm.java"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "options": {
+        "shell": {
+          "executable": "C:\\Windows\\System32\\cmd.exe",
+          "args": ["/c"]
+        }
+      },
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": false,
+        "panel": "shared"
+      },
+      "problemMatcher": ["$javac"]
+    }
+  ]
+}

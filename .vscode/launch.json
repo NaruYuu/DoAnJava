@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Run Main (GUI)",
+      "request": "launch",
+      "mainClass": "Main",
+      "projectName": "",
+      "preLaunchTask": "javac: build project",
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "classPaths": [
+        "${workspaceFolder}",
+        "${workspaceFolder}/lib/*"
+      ]
+    }
+  ]
+}
